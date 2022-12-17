@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+*
+{
+    scroll-behavior: smooth;
+}
+
+nav
+{
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+    
+}
+
+.logo
+{
+    width: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo>a
+{
+    text-decoration: none;
+    color: crimson;
+    font-size: 2vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar
+{
+    width: 100px;
+    width: 60%;
+   display: flex;
+   justify-content: space-evenly;
+   align-self: stretch;
+  
+
+}
+
+.navbar>a
+{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+    font-size: 1.4vmax;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar>a:hover
+{
+    border-bottom: 2px solid crimson;
+}
+.cart
+{
+    width: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+} 
+.cart>img
+{
+    width: 2.5vmax;
+}
+
+.home
+{
+    height: 90vh;
+    background-image: radial-gradient(rgb(230, 221, 255), rgb(184, 184, 223));
+    display: flex;
+
+}
+
+.container
+{
+    width: 100%;
+}
+
+#rc
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rc>img
+{
+    margin-right: 7vmax ;
+    filter: drop-shadow(0 0 20px black);
+}
+#lc
+{
+display: flex;
+flex-direction: column;
+padding: 2vmax;
+box-sizing: border-box;
+align-items: center;
+}
+
+#lc>h1
+{
+    font-size: 5vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 135px;
+    left: -80px;
+    
+}
+
+#lc>h2
+{
+    font-size: 2vmax;
+    font-family:  'sans-serif';
+    position: relative;
+    left: -230px;
+    top: 57px;
+}
+#lc>p
+{
+    font-size: 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 10px;
+    top: 40px;
+    margin-left: 2%;
+}
+
+#lc>button
+{
+    width: 11vmax;
+    padding: 1vmax;
+    border: none;
+    border-radius: 2vmax;
+    background-color: crimson;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin-left: -69%;
+    margin-top: 5.5%;
+}
+
+#lc>button:hover
+{
+    background-color: rgb(170, 21, 51);
+}
+
+#products
+{
+    height: 100%;
+   
+    
+
+}
+
+#products>h1
+{
+    text-align: center;
+    margin: 5vmax auto;
+    font-size: 2.5vmax;
+    border-bottom: 2px solid crimson;
+    width: 25vw;
+}
+
+.productcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.product
+{
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+}
+
+.product>img{
+    width: 20vmax;
+}
+.product>img:hover
+{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.product>h4
+{
+    margin: 2%;
+}
+
+.product>h5
+{
+    margin: 0%;
+}
+
+footer
+{
+    margin-top: 10vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  padding: 2vmax;
+}
+
+.lf
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mf
+{
+    width: 60%;
+}
+
+.rf
+{
+    width: 20%;
+}
+
+.lf > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+
+  .lf > p {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .rf
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rf>h4
+{
+    font-size: 1.4vmax;
+}
+.rf>a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.mf
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mf>h1
+{
+    color: crimson;
+}
